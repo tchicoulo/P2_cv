@@ -2,6 +2,7 @@ body {
     font-family: roboto, sans-serif;
     box-sizing: border-box;
     margin: 0;
+    height: 100%;
     font-size: 1.3rem;
 }
 
@@ -30,6 +31,7 @@ body {
 
 .about {
     margin-top: 2rem;
+    margin-bottom: 3.5rem;
 }
 
 .social {
@@ -119,6 +121,10 @@ i {
 
 h3, h4, h5, li, .hobbies {
     color: rgb(78, 78, 78);
+}
+
+.skill {
+    padding: 3rem;
 }
 
 
