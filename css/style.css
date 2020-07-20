@@ -145,7 +145,7 @@ ul {
 
 /* Media Queries */
 
-@media screen and (max-width : 800px) {
+@media screen and (max-width : 768px) {
     .content {
         display:block;
     }
