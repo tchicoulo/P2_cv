@@ -48,29 +48,36 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 70%; 
-    background-color: white;
 }
 
 .about {
+    margin: 1.5rem 0;
+}
+
+.about >span {
     margin-top: 2rem;
-    margin-bottom: 3.5rem;
+}
+
+.hobbies {
+    margin-top: 13rem;
+    text-align: center;
 }
 
 .social {
-    margin-top: 2rem;
+    margin: 1.5rem 0;
 }
 
-.plus {
-    margin-top : 3rem;
+.text-centered {
+    font-style: italic;
+    margin-top : 5rem;
     text-align: center;
 }
 
 .second-part h2 {
-    padding-bottom: 1rem;
     width: 90%;
 }
 
-.id {
+.id-pic {
     border: 7px solid rgba(33, 49, 47, 0.6);
     border-radius: 50%;
     margin: 4rem;
@@ -97,8 +104,12 @@ body {
 
 }
 
+h3, h4, h5, li, .hobbies {
+    color: rgb(78, 78, 78);
+}
+
+
 .second-part h2, .xp {
-    margin-bottom: 1.5rem;
     margin-top: 1.5rem;
 }
 
@@ -127,47 +138,31 @@ i {
     color: gold;
 }
 
-.hobbies {
-    margin-top: 3rem;
-    padding-top: 6rem;
-    padding-bottom: 2rem;
-    text-align: center;
-}
-
-.stv {
+.stv-gold {
     color : gold;
     font-size: 4rem;
 }
 
-.dev {
+.dev-gold {
     border-bottom: 2px solid gold;
 }
 
-h3, h4, h5, li, .hobbies {
-    color: rgb(78, 78, 78);
-}
 
-.skill {
-    padding: 3rem;
-}
-
-
-
-.replace {
+.heading-logo-flex {
     display : -webkit-box;
     display : -ms-flexbox;
     display : flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
     width: 100%;
-    height: 5rem;
     border-bottom : 2px solid gold;
     margin-bottom: 3.5rem;
 }
 
 ul {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
+}
+
+li {
+    margin : 0.5rem 0;
 }
 
 /* Media Queries */
@@ -182,10 +177,4 @@ ul {
     .second-part {
         width: 100%;
     }
-    #query {
-        padding-bottom: 1rem ;
-    }
 }
-
-
-
