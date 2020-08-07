@@ -1,14 +1,6 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 body {
     font-family: roboto, sans-serif;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     height: 100%;
     font-size: 1.3rem;
@@ -16,16 +8,9 @@ body {
 
 .first-part {
     background-color: gold;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    align-items: center;
+    flex-direction: column;
     width: 30%;
 }
 
@@ -37,16 +22,9 @@ body {
 }
 
 .second-part {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    align-items: center;
+    flex-direction: column;
     width: 70%; 
 }
 
@@ -86,8 +64,6 @@ body {
 }
 
 .content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
@@ -149,8 +125,6 @@ i {
 
 
 .heading-logo-flex {
-    display : -webkit-box;
-    display : -ms-flexbox;
     display : flex;
     width: 100%;
     border-bottom : 2px solid gold;
